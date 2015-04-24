@@ -20,3 +20,8 @@ unix {
     target.path = /usr/lib
     INSTALLS += target
 }
+
+
+
+MOC_DIR = mocs
+OBJECTS_DIR = objs
