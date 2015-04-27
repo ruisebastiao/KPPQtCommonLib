@@ -36,4 +36,6 @@ void KPPTCPServer::incomingConnection(qintptr socketDescriptor)
     connect(thread, SIGNAL(finished()), thread, SLOT(deleteLater()));
 
     thread->start();
+
+    emit NewClientConnected(thread);
 }

@@ -72,6 +72,14 @@ void KPPTCPClientThread::readyRead()
    */
 }
 
+void KPPTCPClientThread::SendImage(const QImage &image)
+{
+ //   image.
+    do {
+        sleep(10000000);
+    } while (true);
+}
+
 void KPPTCPClientThread::disconnected()
 {
     qDebug() << socketDescriptor << " Disconnected";

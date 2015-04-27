@@ -20,6 +20,8 @@ public:
     void startServer();
 protected:
     void incomingConnection(qintptr socketDescriptor);
+signals:
+    void NewClientConnected(KPPQtCommon::KPPTCPClientThread* ClientThread );
 };
 
 }
