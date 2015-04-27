@@ -6,6 +6,7 @@ KPPQtThread::KPPQtThread(QObject *parent, bool Paused):
     QThread(parent)
 {
     m_pause=Paused;
+
 }
 
 void KPPQtThread::Pause()

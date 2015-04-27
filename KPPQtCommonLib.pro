@@ -12,11 +12,15 @@ TEMPLATE = lib
 DEFINES += KPPQTCOMMONLIB_LIBRARY
 
 SOURCES += kppqtcommonlib.cpp \
-    kppqtthread.cpp
+    kppqtthread.cpp \
+    kpptcpclientthread.cpp \
+    kpptcpserver.cpp
 
 HEADERS += kppqtcommonlib.h\
         kppqtcommonlib_global.h \
-    kppqtthread.h
+    kppqtthread.h \
+    kpptcpclientthread.h \
+    kpptcpserver.h
 
 unix {
     target.path = /usr/lib
