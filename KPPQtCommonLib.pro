@@ -11,10 +11,12 @@ TEMPLATE = lib
 
 DEFINES += KPPQTCOMMONLIB_LIBRARY
 
-SOURCES += kppqtcommonlib.cpp
+SOURCES += kppqtcommonlib.cpp \
+    kppqtthread.cpp
 
 HEADERS += kppqtcommonlib.h\
-        kppqtcommonlib_global.h
+        kppqtcommonlib_global.h \
+    kppqtthread.h
 
 unix {
     target.path = /usr/lib
@@ -22,6 +24,4 @@ unix {
 }
 
 
-
-MOC_DIR = mocs
-OBJECTS_DIR = objs
+include(KPPQtCommonLib.pri)

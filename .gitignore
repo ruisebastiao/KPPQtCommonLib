@@ -80,3 +80,6 @@ $RECYCLE.BIN/
 
 mocs
 objs
+
+debug
+release
