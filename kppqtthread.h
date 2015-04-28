@@ -4,6 +4,7 @@
 #include "kppqtcommonlib_global.h"
 #include "QThread"
 #include "QWaitCondition"
+#include "qmutex.h"
 
 namespace KPPQtCommon {
 

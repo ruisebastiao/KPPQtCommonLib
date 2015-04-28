@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += widgets declarative network webkit multimedia
+QT       += widgets network multimedia
 
 TARGET = KPPQtCommonLib
 TEMPLATE = lib
