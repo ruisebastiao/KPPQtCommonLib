@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += widgets network multimedia
+QT       += widgets multimedia
 
 TARGET = KPPQtCommonLib
 TEMPLATE = lib
